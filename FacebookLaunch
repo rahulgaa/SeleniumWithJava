@@ -6,7 +6,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 public class OpenBrowser1 {
 	//main class
 	public static void main(String[] args) throws InterruptedException {
-		//Setting the property of Chrome Browser and path of driver 
+		//'webdriver.chrome.driver' is the property of Chrome Browser and path of driver 
 		System.setProperty("webdriver.chrome.driver", "C:\\Automation Testing Software\\chromedriver_win32\\chromedriver.exe");
 		
 		//WebDriver is interface of Selenium & ChromeDriver is a Class of webdriver interface for chrome browser
